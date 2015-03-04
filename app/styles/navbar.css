@@ -1,0 +1,7 @@
+/*Esto de body es para el formulario de la pagina contactos, para que no se solape*/
+body {
+    padding-top: 100px;
+}
+.well {
+    margin: 0px;
+}
