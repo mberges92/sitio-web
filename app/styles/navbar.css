@@ -1,11 +1,23 @@
 /*Esto de body es para el formulario de la pagina contactos, para que no se solape*/
 
 body {
-    padding-top: 100px;
+    padding-top: 50px;
 }
-.well {
-    margin: 0px;
-    padding: 10px;
+
+
+#form_contacto {
+    margin-top: 10%;
+}
+
+div {
+border-top-width: 50px;
+border-right-width: 50px;
+border-bottom-width: 50px;
+border-left-width: 50px;
+border-top-color: #CC0000;
+border-right-color: blue;
+border-bottom-color: #00FF00;
+border-left-color: #CCC;
 }
 
 /* PANELES DE LA PAGINA DESTINO */
