@@ -1,0 +1,16 @@
+//PALETA
+http://paletton.com/#uid=10Z0u0klzn37FUgf8vLsId8BG3m
+
+// VIDEO YOUTUBE
+https://www.youtube.com/watch?v=dTpe2OCw6ew
+
+// FUENTES GOOGLE FONTS
+Raleway
+
+// FRAMEWORK
+Framework CSS: Twiter Bootstrap
+
+// COMPRESION DE IMAGENES
+https://compressor.io/
+
+

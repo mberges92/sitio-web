@@ -51,4 +51,146 @@
 @import "bower_components/bootstrap/less/responsive-utilities.less";
 
 
-body { padding-bottom: 0px; }
+
+
+/* INICIO PANELES PAGINA DESTINO */
+/*@import url("http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");*/
+.panel-image img.panel-image-preview {
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+.panel-heading ~ .panel-image img.panel-image-preview {
+    border-radius: 0px;
+}
+.panel-image ~ .panel-body, .panel-image.hide-panel-body ~ .panel-body {
+    overflow: hidden;
+}
+.panel-image ~ .panel-footer a {
+    padding: 0px 10px;
+    font-size: 1.3em;
+    color: rgb(100, 100, 100);
+}
+.panel-image.hide-panel-body ~ .panel-body {
+    height: 0px;
+    padding: 0px;
+}
+/* FIN PANELES PAGINA DESTINO */
+
+
+body {
+    padding-top: 50px;
+}
+
+#form_contacto {
+    margin-top: 10%;
+}
+
+
+// SPRITE PARA BOTONES SOCIAL
+/*
+*[data--src]{
+    background: url('img/sprite.png') no-repeat top left;
+}
+*[data--src="/twitter-128.png"]{
+    background-position: -0px -0px;
+    width: 128px;
+    height: 128px;
+    }
+*[data--src="/square-google-plus-128.png"]{
+    background-position: -259px -0px;
+    width: 128px;
+    height: 128px;
+    }
+*[data--src="/facebook-128.png"]{
+    background-position: -129px -0px;
+    width: 128px;
+    height: 128px;
+    }
+*/
+
+
+
+// FORMA 1
+/*
+    #social1 {
+    width: 128px;
+    height: 128px;
+		background: url(img/sprite.png) -0px -0px no-repeat;
+    }
+    #social2 {
+		background: url(img/sprite.png) -259px -0px no-repeat;
+		width: 128px;
+    height: 128px;
+    }
+
+    #social3 {
+    	background: url(img/sprite.png) -129px -0px no-repeat;
+    	width: 128px;
+    height: 128px;
+    }
+    */
+
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+// BASICO DEL DOCUMENTO
+@body-bg:               #FFAC59;                   // COLOR DE FONDO DEL DOCUMENTO
+@font-size-base:          18px;                 // TAMAÑO DE LETRA POR DEFECTO
+@text-color:            #000;                   // COLOR GLOBAL PARA EL TEXTO DEL BODY
+@panel-footer-bg: #48413D; 						// COLOR DEL FOOTER DE LOS PANEL
+@panel-bg: #FF19FF; // FONDO DE LOS PANELES
+
+
+// FUENTES
+@headings-font-family:    @font-family-serif;
+@font-family-sans-serif:  'Open Sans','Roboto',"Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       'Raleway', sans-serif, "Times New Roman", Times, serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-base:        @font-family-serif;
+
+
+// BASICO DE LA NAVBAR
+@navbar-default-color:             #fff;
+
+// LINKS DE LA NAVBAR
+@navbar-default-link-color:                #000;
+@navbar-default-link-hover-color:          red;
+@navbar-default-link-hover-bg:             transparent;
+@navbar-default-link-active-color:         #555;
+@navbar-default-link-active-bg:            darken(@navbar-default-bg, 10%);
+@navbar-default-link-disabled-color:       #ccc;
+@navbar-default-link-disabled-bg:          transparent;
+
+// MEDIA QUERIES, por usarla con algo
+@media (max-width: @screen-xs-max) {
+@font-size-base:          10px;  
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {}
+@media (min-width: @screen-lg-min) {}
+
+
+
+// SPRITES
+#facebook_sprite {
+   background: url(../images/sprite.png) no-repeat;
+    background-position: -84px -2px;
+    width: 39px;
+    height: 39px;
+}
+
+#twitter_sprite {
+    background: url(../images/sprite.png) no-repeat;
+    background-position: -43px -2px;
+    width: 39px;
+    height: 39px;
+}
+
+#google_sprite {
+    background: url(../images/sprite.png) no-repeat;
+    background-position: -2px -2px;
+    width: 39px;
+    height: 39px;
+}
