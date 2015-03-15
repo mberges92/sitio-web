@@ -1,6 +1,5 @@
 // Core variables and mixins
 @import "bower_components/bootstrap/less/variables.less";
-@import "variables.less";
 @import "bower_components/bootstrap/less/mixins.less";
 
 // Reset and dependencies
@@ -51,8 +50,6 @@
 @import "bower_components/bootstrap/less/responsive-utilities.less";
 
 
-
-
 /* INICIO PANELES PAGINA DESTINO */
 /*@import url("http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");*/
 .panel-image img.panel-image-preview {
@@ -86,53 +83,6 @@ body {
 }
 
 
-// SPRITE PARA BOTONES SOCIAL
-/*
-*[data--src]{
-    background: url('img/sprite.png') no-repeat top left;
-}
-*[data--src="/twitter-128.png"]{
-    background-position: -0px -0px;
-    width: 128px;
-    height: 128px;
-    }
-*[data--src="/square-google-plus-128.png"]{
-    background-position: -259px -0px;
-    width: 128px;
-    height: 128px;
-    }
-*[data--src="/facebook-128.png"]{
-    background-position: -129px -0px;
-    width: 128px;
-    height: 128px;
-    }
-*/
-
-
-
-// FORMA 1
-/*
-    #social1 {
-    width: 128px;
-    height: 128px;
-		background: url(img/sprite.png) -0px -0px no-repeat;
-    }
-    #social2 {
-		background: url(img/sprite.png) -259px -0px no-repeat;
-		width: 128px;
-    height: 128px;
-    }
-
-    #social3 {
-    	background: url(img/sprite.png) -129px -0px no-repeat;
-    	width: 128px;
-    height: 128px;
-    }
-    */
-
-
-@import url(http://fonts.googleapis.com/css?family=Raleway);
-
 // BASICO DEL DOCUMENTO
 @body-bg:               #FFAC59;                   // COLOR DE FONDO DEL DOCUMENTO
 @font-size-base:          18px;                 // TAMAÑO DE LETRA POR DEFECTO
@@ -143,10 +93,10 @@ body {
 
 // FUENTES
 @headings-font-family:    @font-family-serif;
-@font-family-sans-serif:  'Open Sans','Roboto',"Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif:  'Raleway', 'Open Sans','Roboto',"Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:       'Raleway', sans-serif, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
-@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-monospace:   'Raleway', Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-serif;
 
 

@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -1489,7 +1488,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: 'Raleway', Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 code {
   padding: 2px 4px;
@@ -6487,44 +6486,6 @@ body {
 #form_contacto {
   margin-top: 10%;
 }
-/*
-*[data--src]{
-    background: url('img/sprite.png') no-repeat top left;
-}
-*[data--src="/twitter-128.png"]{
-    background-position: -0px -0px;
-    width: 128px;
-    height: 128px;
-    }
-*[data--src="/square-google-plus-128.png"]{
-    background-position: -259px -0px;
-    width: 128px;
-    height: 128px;
-    }
-*[data--src="/facebook-128.png"]{
-    background-position: -129px -0px;
-    width: 128px;
-    height: 128px;
-    }
-*/
-/*
-    #social1 {
-    width: 128px;
-    height: 128px;
-		background: url(img/sprite.png) -0px -0px no-repeat;
-    }
-    #social2 {
-		background: url(img/sprite.png) -259px -0px no-repeat;
-		width: 128px;
-    height: 128px;
-    }
-
-    #social3 {
-    	background: url(img/sprite.png) -129px -0px no-repeat;
-    	width: 128px;
-    height: 128px;
-    }
-    */
 #facebook_sprite {
   background: url(../images/sprite.png) no-repeat;
   background-position: -84px -2px;
